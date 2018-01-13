@@ -1,0 +1,44 @@
+<div ng-if="data" class="detailbox">
+    <button ng-click="edit()">{{editText}}</button>
+    <button ng-if="isEdit" ng-click="Submit(data)">{{SubmitText}}</button>
+    <br>
+
+    <div>
+        <span>Teacher name:</span>
+        <span ng-if="!isEdit">{{data.Teacher}}</span>
+        <input ng-if="isEdit" type="text" ng-model="data.Teacher" />
+    </div>
+
+    <div>
+        <span>Class Timing:-</span>
+        <span ng-if="!isEdit">{{data.Timing}}</span>
+        <input ng-if="isEdit" type="text" ng-model="data.Timing" />
+    </div>
+    <div>
+        <span>Class Details:-</span>
+        <span ng-if="!isEdit">{{data.details}}</span>
+        <input ng-if="isEdit" type="text" ng-model="data.details" />
+    </div>
+</div>
+
+<div ng-if="!data" class="detailbox">
+    <button ng-click="add()">Add</button><br>
+    <span ng-if="!isAdd">No data found!!</span>
+    <div ng-if="isAdd">
+        <div>
+            <span>Teacher name:-</span>
+
+            <input type="text" ng-model="data.Teacher" />
+        </div>
+        <div>
+            <span>Class Timing:-</span>
+
+            <input type="text" ng-model="data.Timing" />
+        </div>
+        <div>
+            <span>Class Details:-</span>
+            <input type="text" ng-model="data.details" />
+        </div>
+
+    </div>
+</div>

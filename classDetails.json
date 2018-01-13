@@ -1,0 +1,27 @@
+{
+    "HTML": {
+        "Teacher": "Rishabh",
+        "Timing": "08-10pm",
+        "details": "Hello HTML "
+    },
+    "CSS": {
+        "Teacher": "Abhishek",
+        "Timing": "10-12pm",
+        "details": "Hello CSS "
+    },
+    "Javascript": {
+        "Teacher": "Shanu",
+        "Timing": "12-2pm",
+        "details": "Hello JavaScript "
+    },
+    "Bootstrap": {
+        "Teacher": "Nikita",
+        "Timing": "03-05pm",
+        "details": "Hello bootsrap "
+    },
+    "Python": {
+        "Teacher": "Rajeev",
+        "Timing": "03-07pm",
+        "details": "Hello Python "
+    }
+}

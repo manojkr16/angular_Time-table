@@ -1,0 +1,9 @@
+{
+    "Monday": ["HTML", "Javascript", "Python"],
+    "Tuesday": ["HTML", "CSS", "Python"],
+    "Wednesday": ["Python", "PHP", "Javascript"],
+    "Thursday": ["PHP", "Python", "HTML"],
+    "friday": ["Javascript", "HTML", "Bootstrap"],
+    "saturday": ["HTML", "CSS", "Bootstrap"],
+    "Sunday": ["Bootstrap", "HTML", "Python"]
+}

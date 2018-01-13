@@ -1,0 +1,14 @@
+<!-- <div ng-controller="myCtrl"></div> -->
+
+<div ng-repeat="(key,value) in dataLists">
+
+    <table>
+        <tr>
+            <td><b>{{key}}</b></td>
+            <td ng-repeat="(k,v) in value"><a href="#!details/{{v}}">{{v}}</td>
+                     
+            </tr>
+        </table>
+
+         
+    </div>
